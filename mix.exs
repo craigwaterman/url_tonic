@@ -17,7 +17,7 @@ defmodule UrlTonic.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {UrlTonic, []},
-     applications: [:phoenix, :cowboy, :logger, :gettext]]
+     applications: [:url_tincture, :phoenix, :cowboy, :logger, :gettext]]
   end
 
   # Specifies which paths to compile per environment.
@@ -31,6 +31,7 @@ defmodule UrlTonic.Mixfile do
     [{:url_tincture, "0.0.3"},
      {:phoenix, "~> 1.1.4"},
      {:gettext, "~> 0.9"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:exrm, "~> 1.0"}]
   end
 end
