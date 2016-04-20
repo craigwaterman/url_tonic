@@ -28,7 +28,7 @@ defmodule UrlTonic.Mixfile do
   #
   # Type `mix help deps` for examples and options.
   defp deps do
-    [{:url_tincture, "0.0.3"},
+    [{:url_tincture, "0.0.4"},
      {:phoenix, "~> 1.1.4"},
      {:gettext, "~> 0.9"},
      {:cowboy, "~> 1.0"},

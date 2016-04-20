@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :url_tonic, UrlTonic.Endpoint,
   http: [port: 8080],
-  url: [host: "", port: 80]
+  url: [host: "localhost", port: 80]
 
 # Do not print debug messages in production
 config :logger, level: :info
