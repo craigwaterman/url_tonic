@@ -12,4 +12,4 @@
   "providers": {:hex, :providers, "1.6.0"},
   "ranch": {:hex, :ranch, "1.2.1"},
   "relx": {:hex, :relx, "3.18.0"},
-  "url_tincture": {:hex, :url_tincture, "0.0.3"}}
+  "url_tincture": {:hex, :url_tincture, "0.0.4"}}
